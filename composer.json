@@ -1,5 +1,5 @@
 {
-    "name": "sema/minifier-bundle",
+    "name": "troopers/minify-bundle",
     "type": "symfony-bundle",
     "description": "This bundle allows you to minify html code, combine and minify JavaScript files and CSS files without Java VM.",
     "keywords": ["Symfony2", "bundle", "minify"],
@@ -19,8 +19,7 @@
         "kriswallsmith/assetic": "~1.4",
         "symfony/console": "~2.8"
     },
-    "autoload":     {
-        "psr-0": { "Sema\\Bundle\\MinifierBundle": "" }
-    },
-    "target-dir": "Sema/Bundle/MinifierBundle"
+    "autoload": {
+        "psr-4": { "Troopers\\MinifyBundle\\": "" }
+    }
 }
